@@ -7,5 +7,3 @@
    - On Windows: `.venv\Scripts\activate`
    - On Linux/macOS: `source .venv/bin/activate`  
 4. Install dependencies: `pip install -r requirements.txt`      
-
-**Now you can develop the model.**
