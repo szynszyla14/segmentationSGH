@@ -13,10 +13,10 @@ df = pd.read_csv("superstore_final_dataset.csv", encoding="cp1250")
 """# Overview"""
 
 # Check the number of rows and columns
-df.shape
+print(df.shape)
 
 # Check initial columns types
-df.dtypes
+print(df.dtypes)
 
 # Change the type of columns
 df["Order_Date"] = pd.to_datetime(df["Order_Date"], dayfirst=True, errors="coerce")
@@ -33,7 +33,7 @@ structure_table = pd.DataFrame({
 print(structure_table)
 
 # Count unique values
-df.nunique()
+print(df.nunique())
 
 # List and count unique values
 
