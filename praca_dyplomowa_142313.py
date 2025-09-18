@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("/content/drive/MyDrive/superstore_final_dataset.csv", encoding="cp1250")
+df = pd.read_csv("superstore_final_dataset.csv", encoding="cp1250")
 
 """# Overview"""
 
