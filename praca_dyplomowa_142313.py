@@ -1,8 +1,4 @@
-!pip install -r requirements.txt
-
 # Import data
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -177,7 +173,7 @@ fig.add_trace(go.Scattergeo(
 ))
 
 fig.update_layout(width=1200, height=800)
-fig.show()
+fig.show(renderer='browser')
 
 """## Products structure"""
 
